@@ -73,5 +73,4 @@
   upd();
 })();
 
-/* === licznik otwarć demo (buy-signal) === */
-(function(){try{if(String(location.protocol).indexOf('http')!==0)return;if(sessionStorage.getItem('_dv'))return;sessionStorage.setItem('_dv','1');var seg=(location.pathname.split('/').filter(Boolean)[0])||'';var base=location.origin+(seg?('/'+seg):'');fetch('https://zngfubfinbojfgaxdrbf.supabase.co/rest/v1/demo_views',{method:'POST',keepalive:true,headers:{'Content-Type':'application/json','apikey':'sb_publishable_MWwoyGlSCWnJ4awtOPF0ow_ZVS0Y8qK','Authorization':'Bearer sb_publishable_MWwoyGlSCWnJ4awtOPF0ow_ZVS0Y8qK','Prefer':'return=minimal'},body:JSON.stringify({demo_url:base,page:location.pathname,referrer:(document.referrer||null)})}).catch(function(){});}catch(e){}})();
+/* licznik otwarć WYŁĄCZONY 29.06 (stare demo - liczył też nasze wejścia) */
